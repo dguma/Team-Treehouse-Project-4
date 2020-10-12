@@ -1,0 +1,74 @@
+@import '../utilities/variables';
+/* ============================================= */
+/*              Grid                    		 */
+/* ============================================= */
+
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.theme.col-1 {
+  background-color: $purple;
+}
+
+.theme.col-2 {
+  background-color: $orange;
+}
+
+.theme.col-3 {
+  background-color: $purple-light;
+}
+
+.theme.col-4 {
+  background-color: $blue-light;
+}
+
+.theme.col-5 {
+  background-color: $green;
+}
+
+.theme.col-6 {
+  background-color: $blue-sky;
+}
+
+.theme.col-7 {
+  background-color: $pink;
+}
+
+.theme.col-8 {
+  background-color: $nude;
+}
+
+.theme.col-9 {
+  background-color: $pink-red;
+}
+
+.theme.col-10 {
+  background-color: $green-emerald
+}
+
+.theme.col-11 {
+  background-color: $blue-green;
+}
+
+.theme.col-12 {
+  background-color: $turquoise;
+}
+
+.card {
+  flex-basis: 100%;
+}
