@@ -1,5 +1,3 @@
-@import '../utilities/variables';
-
 /* ============================================= */
 /*              Navigation                    	 */
 /* ============================================= */
@@ -23,6 +21,6 @@
 }
 
 .nav-link:hover {
-  color: #fff;
-  background-color: $nav-btn-light;
+  color: $white;
+  background-color: $nav-link;
 }

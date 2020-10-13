@@ -5,7 +5,7 @@
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $white;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -13,21 +13,36 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $default;
+  &:hover {
+		background-color: lighten($default, 25%);
+	}
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $error;
+  &:hover {
+		background-color: lighten($error, 25%);
+	}
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $info;
+  &:hover {
+		background-color: lighten($info, 25%);
+	}
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $success;
+  &:hover {
+		background-color: lighten($success, 25%);
+	}
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $warning;
+  &:hover {
+		background-color: lighten($warning, 25%);
+	}
 }

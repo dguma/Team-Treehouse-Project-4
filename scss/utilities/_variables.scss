@@ -1,4 +1,4 @@
-// Colors  Variables
+// Colors  Variables For Grid
 $purple: #927bc1;
 $orange: #fd7856;
 $purple-light: #deb2ee;
@@ -12,8 +12,26 @@ $pink-red: #e4757a;
 $nude: #fd9f85;
 $turquoise: #80e8d1;
 
-$nav-btn: #58e1c1;
-$nav-btn-light: lighten($nav-btn, 25%);
+// Colors  Variables For Buttons
+$default: #51ddfc;
+$error: #e4757a;
+$info: #927bc1;
+$success: #63cc82;
+$warning: #fd7856;
+$white: #fff;
+
+// Colors  Variables For Typography
+$primary: #58e1c1;
+$secondary: #777;
+$link: #51ddfc;
+
+// Colors  Variables For Images
+$img-border: #ccc;
+
+// Colors  Variables For Nav
+$nav-link: #58e1c1;
+
+$font: 'Lato', sans-serif;
 
 //Media Query Variable
 $tblt: 768px;
